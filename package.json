@@ -8,7 +8,9 @@
   "scripts": {
     "start": "yarn dev:start",
     "dev:start": "nodemon --exec babel-node src",
-    "test": "flow && jest --coverage"
+    "test": "flow && jest --coverage",
+    "flow": "flow",
+    "flow:watch": "flow-watch"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -21,6 +23,7 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "flow-watch": "^1.1.1"
   }
 }
