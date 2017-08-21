@@ -1,0 +1,26 @@
+{
+  "name": "js-refactor-dojo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aputhin/js-refactor-dojo.git",
+  "author": "Arthur Puthin <arthur.rprp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn dev:start",
+    "dev:start": "nodemon --exec babel-node src",
+    "test": "flow && jest --coverage"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.53.1",
+    "jest": "^20.0.4",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
